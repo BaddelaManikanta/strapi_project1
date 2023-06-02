@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_pages",
+  "info": {
+    "singularName": "blog-page",
+    "pluralName": "blog-pages",
+    "displayName": "blogPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "our blog"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "PageInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.page-info"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    }
+  }
+}

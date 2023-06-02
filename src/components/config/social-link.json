@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_config_social_links",
+  "info": {
+    "displayName": "socialLink"
+  },
+  "options": {},
+  "attributes": {
+    "socialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "GitHub",
+        "Facebook",
+        "What's App",
+        "Twitter",
+        "Yahoo",
+        "Instagram"
+      ]
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

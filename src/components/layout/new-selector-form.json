@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_new_selector_forms",
+  "info": {
+    "displayName": "newSelectorForm"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "text"
+    }
+  }
+}

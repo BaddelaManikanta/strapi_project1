@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_links",
+  "info": {
+    "displayName": "link"
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
